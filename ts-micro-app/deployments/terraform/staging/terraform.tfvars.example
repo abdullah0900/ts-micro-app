@@ -1,0 +1,10 @@
+project_id   = "project-id-value"
+region       = "us-central1"
+network_name = "project-env-network"
+subnets = [
+  {
+    subnet_name: "project-env-subnet"
+    subnet_ip: "10.2.0.0/16"
+    subnet_region: "us-central1"
+  }
+]
